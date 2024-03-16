@@ -64,7 +64,7 @@ jobs:
 
     # Autobuild attempts to build any compiled languages (C/C++, C#, Go, Java, or Swift).
     # If this step fails, then you should remove it and run the build manually (see below)
-    #- name: Autobuild
+    # - name: Autobuild
     - name: Build Java
       run: |
         mvn clean package -f tools/deploy/module2/pom.xml
