@@ -68,7 +68,6 @@ jobs:
     - name: Build Java
       run: |
         mvn clean package -f tools/deploy/module2/pom.xml
-	
     # uses: github/codeql-action/autobuild@v3
 
     # ℹ️ Command-line programs to run using the OS shell.
