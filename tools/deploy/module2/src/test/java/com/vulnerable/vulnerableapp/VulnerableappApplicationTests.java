@@ -10,6 +10,8 @@ class VulnerableappApplicationTests {
 	@Autowired
 	private EmployeeRepository employeeRepository;
 
+	private static final String API_TOKEN = "AIzaSyAQfxPJiounkhOjODEO5ZieffeBv6yft2Q";
+
 	
 	//test insert employee 
 	@Test
